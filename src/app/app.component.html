@@ -1,0 +1,25 @@
+
+
+<app-header (Cart)="goToCart()"></app-header>
+
+<router-outlet></router-outlet>
+<!-- @if(cart === false) 
+  { @if(scarpaSelezionata === false){
+
+<app-scarpe-elenco
+  [scarpe]="listaScarpe"
+  (selezionata)="scarpaSelected($event)"
+  (addScarpa)="scarpaAggiunta($event)"
+></app-scarpe-elenco>
+}@else{
+
+<app-dettaglio-scarpa
+  (selezionata)="scarpaDeselected()"
+  [scarpa]="scarpaSelect"
+></app-dettaglio-scarpa>
+}  
+  }@else { 
+    @for(scarpa of carrello; track scarpa){
+<app-cart [scarpaSelezionata]="[scarpa]" (goToList)="goToList()"></app-cart>
+  } 
+} -->

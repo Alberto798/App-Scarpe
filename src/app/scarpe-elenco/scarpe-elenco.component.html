@@ -1,0 +1,19 @@
+<div class="box-container">
+<div class="container" *ngFor="let scarpa of scarpe">
+        <div class="box-scarpa">
+            <img src ="../../assets/scarpe9.jpg" alt="">
+            <h2>{{scarpa.nome}}</h2>
+            <p>Prezzo: {{scarpa.prezzo}}</p>
+            
+
+            <button (click)="goToDetail(scarpa)">Vai al dettaglio</button>
+            <button (click)="rimuoviScarpa(scarpa)">Rimuovi scarpa</button>
+            <button (click)="addToCart(scarpa)">Aggiungi al carrello</button>
+
+        </div>
+    
+</div>
+</div>
+
+
+

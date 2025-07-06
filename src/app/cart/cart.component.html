@@ -1,0 +1,24 @@
+<h1>Carrello</h1>
+
+@for(scarpa of cartSrvice.cart$ | async ; track scarpa){
+
+@if(scarpa){
+<div class="box-scarpa">
+   <div id="box1">
+  <h2>{{ scarpa.nome }}</h2>
+  <p>colore: {{ scarpa.colore }}</p>
+  <p>Prezzo: {{ scarpa.prezzo }}</p>
+  <p>Quantità: {{ scarpa.quantita }}</p>
+  <p>Taglia: {{ scarpa.taglia }}</p>
+  </div>
+  <div id="box2">
+  <img src="../../assets/scarpe9.jpg" alt="">
+  </div>
+
+  <button (click)="remove(scarpa)">Rimuovi dal carrello</button>
+</div>
+}
+}
+<div id="box3">
+<button (click)="goToLista()">Torna alla lista</button>
+</div>

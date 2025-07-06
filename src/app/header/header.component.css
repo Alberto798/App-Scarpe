@@ -1,0 +1,21 @@
+.box-header{
+    margin-bottom: 3rem;
+    border-bottom: 1px solid black;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgb(196, 162, 50);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: transparent;
+}
+

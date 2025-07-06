@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.box-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 60%;
+    padding: 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    border: 1px solid black;
+    border-radius: 20px;
+    
+   
+}
+
+
+
+
+.box-scarpa{
+    flex: 1 1 250px;
+    border: 1px solid black;
+    width: 350px;
+    height: 600px;
+    border-radius: 20px;
+    padding: 2rem;
+    background-color: rgb(134, 50, 39);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    font-size: large;
+    
+
+}
+
+
+button{
+    width: 200px;
+    height: 30px;
+    border: transparent;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: "Zain", sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(248, 245, 245);
+    color: rgb(10, 8, 8);
+}
